@@ -1,0 +1,1 @@
+&{template:dmg} {{damage=1}} {{dmg1flag=1}} {{dmg2flag= ?{MultipleDamageTypes|0}}} {{dmg1= [[0d1+(?{NumberOfDice}*?{DamageDie}) + ?{NumberOfDice|0}d?{DamageDie|0}+?{DamageModifier|0}]]}} {{dmg1type=?{DamageType|Piercing}}} {{dmg2= [[0d1+(?{NumberOfDice2}*?{DamageDie2}) + ?{NumberOfDice2|0}d?{DamageDie2|0}+?{DamageModifier2|0}]]}} {{dmg2type=?{DamageType2|Piercing}}}
