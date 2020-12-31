@@ -1,0 +1,1 @@
+&{template:dmg} {{damage=1}} {{dmg1flag=1}} {{dmg1= [[?{NumberOfDice|0}d?{DamageDie|0}+?{DamageModifier|0}]]}} {{dmg1type=?{DamageType|Piercing}}} {{crit=1}} {{crit1= [[0d1+(?{NumberOfDice}*?{DamageDie})]]}}
